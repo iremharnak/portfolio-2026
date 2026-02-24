@@ -376,9 +376,11 @@ export default function BMOCasePage() {
               </div>
             </div>
             <p className="mt-10 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              These metrics reflect broader modernization efforts across the
-              platform, including usability improvements and strengthened system
-              consistency.
+              Improvements to document retrieval and account preference
+              workflows contributed to measurable gains in platform engagement
+              and user satisfaction. Reducing interaction complexity and
+              strengthening accessible component behavior improved clarity
+              across critical financial tasks.
             </p>
           </FadeIn>
         </section>
@@ -391,16 +393,16 @@ export default function BMOCasePage() {
             </h2>
             <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
               Modernizing enterprise financial systems requires balancing
-              stability with improvement.
+              stability with meaningful improvement. In this environment,
+              success is not defined by dramatic visual change, but by reduced
+              friction, clearer system behavior, and scalable component
+              architecture.
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              In this environment, success isn&apos;t defined by dramatic visual
-              change — it&apos;s measured by reduced friction, improved clarity,
-              and sustainable component architecture.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              This experience deepened my approach to designing systems that are
-              both usable and structurally sound.
+              Working directly within Angular and enterprise CI/CD workflows
+              strengthened my ability to design with implementation constraints
+              in mind. This experience deepened my approach to building systems
+              that are both usable and structurally sound.
             </p>
           </FadeIn>
         </section>
