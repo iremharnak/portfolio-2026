@@ -170,7 +170,7 @@ export const projects: Project[] = [
     scope: "AR lens concepting, prototyping, and iteration",
     tenure: "Oct 2020 \u2013 Nov 2020",
     environment: "Creative tech, rapid experimentation, emerging platform constraints",
-    technologies: "Lens Studio, AR prototyping tools",
+    technologies: "Lens Studio, AR prototyping tools, ML",
 
     challenge:
       "Design an engaging AR experience that communicates a clear behavioral idea through interaction and narrative, delivered quickly under platform constraints and short timelines.",
