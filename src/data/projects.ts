@@ -205,6 +205,6 @@ export const writingPosts: WritingPost[] = [
     title: "Creative Careers Aren\u2019t Linear. Systems Thinking Is.",
     description:
       "What stayed consistent across photography, immersive design, and product systems work.",
-    href: "https://YOUR-SUBSTACK-URL/post/creative-careers-systems-thinking",
+    href: "https://iremharnak.substack.com/p/creative-careers-arent-linear-systems",
   },
 ];
