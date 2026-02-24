@@ -202,23 +202,51 @@ export default function TDCasePage() {
             </h2>
           </FadeIn>
 
+          {/* Problem visual */}
           <FadeIn>
             <div className="mt-10">
-              <Placeholder label="Vehicle Dropdown Concept Placeholder" />
+              <Image
+                src="/Vehicle-Dropdown-Problem.png"
+                alt="Problem: Long flat vehicle dropdown presenting full list without structured grouping"
+                width={1600}
+                height={1200}
+                className="w-full"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
             </div>
+            <p className="mt-3 text-sm text-neutral-400">
+              Flat API-driven dropdown presenting full vehicle list without
+              structured grouping.
+            </p>
           </FadeIn>
 
+          {/* Proposed solution visual */}
           <FadeIn>
-            <p className="mt-10 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              Vehicle data surfaced from backend APIs created friction when
-              presented raw.
+            <div className="mt-16 sm:mt-20">
+              <Image
+                src="/Vehicle-Dropdown-Solution.png"
+                alt="Proposed solution: Grouped drill-down vehicle selection pattern"
+                width={1600}
+                height={1200}
+                className="w-full"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+            </div>
+            <p className="mt-3 text-sm text-neutral-400">
+              Grouped vehicle selection modeled after the Canada Post drill-down
+              interaction pattern.
             </p>
-            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              I proposed three structured approaches to improve usability while
-              respecting backend constraints.
+          </FadeIn>
+
+          {/* Explanation */}
+          <FadeIn>
+            <p className="mt-16 sm:mt-20 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              Instead of exposing a full list of vehicles at once, I proposed a
+              structured drill-down model that grouped vehicles by year and make
+              before revealing model-level options.
             </p>
-            <p className="mt-6 text-sm font-medium text-neutral-900">
-              Work included:
+            <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              This approach:
             </p>
             <ul className="mt-4 space-y-3" role="list">
               <li className="flex gap-3 text-base leading-relaxed text-neutral-600">
@@ -226,34 +254,34 @@ export default function TDCasePage() {
                   className="mt-2 block h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-300"
                   aria-hidden="true"
                 />
-                Reframing vehicle data grouping for user comprehension
+                Reduced visual overload
               </li>
               <li className="flex gap-3 text-base leading-relaxed text-neutral-600">
                 <span
                   className="mt-2 block h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-300"
                   aria-hidden="true"
                 />
-                Designing interaction pathways aligned to backend data
-                architecture
+                Aligned with an existing, familiar enterprise interaction pattern
               </li>
               <li className="flex gap-3 text-base leading-relaxed text-neutral-600">
                 <span
                   className="mt-2 block h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-300"
                   aria-hidden="true"
                 />
-                Documenting solution trade-offs for engineering feasibility
+                Preserved backend data integrity
               </li>
               <li className="flex gap-3 text-base leading-relaxed text-neutral-600">
                 <span
                   className="mt-2 block h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-300"
                   aria-hidden="true"
                 />
-                Aligning display logic to user mental models
+                Lowered cognitive effort in high-volume lists
               </li>
             </ul>
-            <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              While not yet implemented, this work established a clearer framework
-              for how API-driven data should be surfaced in regulated flows.
+            <p className="mt-10 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              This work required reframing API data structures into
+              user-comprehensible groupings while maintaining regulatory accuracy
+              and engineering feasibility.
             </p>
           </FadeIn>
         </section>
@@ -268,7 +296,14 @@ export default function TDCasePage() {
 
           <FadeIn>
             <div className="mt-10">
-              <Placeholder label="Revenue Slider Interaction Placeholder" />
+              <Image
+                src="/Revenue-Slider.png"
+                alt="Revenue slider interaction with real-time value formatting"
+                width={1600}
+                height={1200}
+                className="w-full"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
             </div>
           </FadeIn>
 
@@ -322,7 +357,14 @@ export default function TDCasePage() {
 
           <FadeIn>
             <div className="mt-10">
-              <Placeholder label="UX Backlog Roadmap Placeholder" />
+              <Image
+                src="/TD-UXStrategy.png"
+                alt="UX backlog roadmap for long-term conversion growth"
+                width={1600}
+                height={1200}
+                className="w-full"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
             </div>
           </FadeIn>
 
