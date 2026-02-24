@@ -193,13 +193,13 @@ export const writingPosts: WritingPost[] = [
     title: "Accessibility Is a System Constraint, Not a Final Step",
     description:
       "Why accessibility breaks when it\u2019s treated as a final layer instead of a structural decision.",
-    href: "https://YOUR-SUBSTACK-URL/post/accessibility-is-a-system-constraint",
+    href: "https://iremharnak.substack.com/p/accessibility-is-a-system-constraint",
   },
   {
     title: "The 3 Conversion Gaps I Keep Finding in E-commerce Teams",
     description:
       "Patterns that quietly reduce trust and progression, and what strong teams fix first.",
-    href: "https://YOUR-SUBSTACK-URL/post/three-conversion-gaps-ecommerce",
+    href: "https://iremharnak.substack.com/p/the-3-conversion-gaps-i-keep-finding",
   },
   {
     title: "Creative Careers Aren\u2019t Linear. Systems Thinking Is.",
