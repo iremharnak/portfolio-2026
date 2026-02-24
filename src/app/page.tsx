@@ -16,12 +16,12 @@ export default function HomePage() {
               Senior Product Designer &amp; Design Engineer
             </p>
             <h1 className="mt-6 font-serif text-4xl leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-              Building clear, principled interfaces.
+              Building structured, accessible systems under real-world
+              constraints.
             </h1>
             <p className="mt-6 text-base leading-relaxed text-black/70 lg:text-lg">
-              I help teams turn complex problems into structured, usable
-              products. Currently focused on design systems, onboarding, and
-              data-rich tools.
+              I help teams translate complexity into scalable, usable products
+              across enterprise platforms and emerging technologies.
             </p>
           </FadeIn>
         </div>
@@ -43,16 +43,17 @@ export default function HomePage() {
             <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
               I&rsquo;m a Senior Product Designer and Design Engineer working at
               the intersection of structured systems and emerging technology. My
-              background spans enterprise insurance, financial infrastructure,
-              immersive XR training systems, and experimental AR environments.
+              experience spans enterprise insurance, financial infrastructure,
+              immersive XR training platforms, and experimental AR environments.
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              I focus on translating complex constraints into clear, principled
-              interfaces, whether navigating regulatory logic, modernizing legacy
-              systems, or prototyping new interaction models.
+              I design systems that translate complex constraints into clear,
+              scalable interaction models, whether navigating regulatory logic,
+              modernizing legacy platforms, or prototyping new forms of spatial
+              and machine learning driven interaction.
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              I&rsquo;m particularly drawn to teams scaling thoughtful products
+              I&rsquo;m particularly drawn to teams building thoughtful products
               under real-world complexity.
             </p>
           </FadeIn>
