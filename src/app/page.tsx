@@ -20,8 +20,13 @@ export default function HomePage() {
               constraints.
             </h1>
             <p className="mt-6 text-base leading-relaxed text-black/70 lg:text-lg">
-              I help teams translate complexity into scalable, usable products
-              across enterprise platforms and emerging technologies.
+              From 0 to 1 prototypes to large-scale platforms, I help teams
+              translate complexity into scalable, usable products across
+              enterprise systems and emerging technologies.
+            </p>
+            <p className="mt-4 text-sm leading-relaxed text-black/50">
+              Trusted across enterprise insurance, financial infrastructure,
+              immersive XR training platforms, and AR experimentation.
             </p>
           </FadeIn>
         </div>
@@ -55,6 +60,10 @@ export default function HomePage() {
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
               I&rsquo;m particularly drawn to teams building thoughtful products
               under real-world complexity.
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              I am comfortable operating in both highly regulated environments
+              and fast-moving experimental teams.
             </p>
           </FadeIn>
         </div>
@@ -94,6 +103,11 @@ export default function HomePage() {
           >
             Writing
           </h2>
+          <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
+            I write about how structured systems shape real products, from
+            enterprise infrastructure to immersive and machine learning driven
+            environments.
+          </p>
         </FadeIn>
 
         <div className="mt-10 space-y-8">
@@ -113,6 +127,21 @@ export default function HomePage() {
             </FadeIn>
           ))}
         </div>
+
+        <FadeIn>
+          <p className="mt-10 text-sm leading-relaxed text-neutral-500">
+            Subscribe for essays on systems thinking, accessibility, enterprise
+            modernization, and production-level design.
+          </p>
+          <a
+            href="https://iremharnak.substack.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-block text-sm font-medium text-neutral-900 underline underline-offset-4 decoration-neutral-300 hover:decoration-neutral-900 transition-colors duration-200"
+          >
+            Subscribe on Substack
+          </a>
+        </FadeIn>
       </section>
 
       {/* Contact */}

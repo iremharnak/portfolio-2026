@@ -116,7 +116,7 @@ export const projects: Project[] = [
     org: "Lumeto",
     headline: "Designing Immersive Training Systems for 15,000+ Users",
     summary:
-      "Led UX for enterprise XR training in healthcare and public safety, translating complex simulation workflows into usable systems.",
+      "Led UX for enterprise XR training in healthcare and public safety, translating complex simulation workflows into usable systems. Built from concept to scalable deployment within 12 months, supporting 15,000+ users across healthcare and public safety training environments.",
     bullets: [
       "Designed interaction models for high-stakes training scenarios",
       "Ran participatory workshops and research to guide strategy",
@@ -154,7 +154,7 @@ export const projects: Project[] = [
     org: "Snap Inc.",
     headline: "Exploring Behavior Design Through Augmented Reality",
     summary:
-      "Selected as an AR Creator Resident at Snap, rapidly prototyping interactive experiences combining narrative, behavior design, and spatial interaction.",
+      "Selected for Snapchat's AR Creator Residency, where I rapidly prototyped and launched an ML-driven AR experience within a constrained program timeline.",
     bullets: [
       "Created proof-of-concept AR experiences in fast iteration cycles",
       "Explored interaction storytelling and engagement through spatial design",
