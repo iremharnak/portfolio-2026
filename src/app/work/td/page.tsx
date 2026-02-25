@@ -75,7 +75,7 @@ export default function TDCasePage() {
                   Tenure
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
-                  4-month engagement
+                  Aug 2025 – Dec 2025
                 </dd>
               </div>
               <div>

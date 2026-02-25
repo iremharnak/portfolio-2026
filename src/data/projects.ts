@@ -49,7 +49,7 @@ export const projects: Project[] = [
       "Designing within compliance constraints to improve quote progression and structural clarity.",
     role: "Senior Product Designer",
     scope: "Property and Auto quoting flows",
-    tenure: "4 months",
+    tenure: "Aug 2025 – Dec 2025",
     environment: "Compliance-heavy, analytics-driven",
     technologies: "Figma, analytics tooling, internal component systems",
     team: "Cross-functional collaboration with Product, Engineering, Compliance, and Content",
