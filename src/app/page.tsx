@@ -59,7 +59,7 @@ export default function HomePage() {
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
               I&rsquo;m particularly drawn to teams building thoughtful products
-              under real-world complexity.
+              under real world complexity.
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
               I am comfortable operating in both highly regulated environments

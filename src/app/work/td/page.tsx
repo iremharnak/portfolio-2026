@@ -176,7 +176,7 @@ export default function TDCasePage() {
                   className="mt-2 block h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-300"
                   aria-hidden="true"
                 />
-                Clarified category groupings to better reflect real-world business
+                Clarified category groupings to better reflect real world business
                 mental models
               </li>
               <li className="flex gap-3 text-base leading-relaxed text-neutral-600">

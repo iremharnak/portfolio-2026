@@ -136,7 +136,7 @@ export default function SnapCasePage() {
                   className="mt-2 block h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-300"
                   aria-hidden="true"
                 />
-                Integrates real-world object recognition
+                Integrates real world object recognition
               </li>
               <li className="flex gap-3 text-base leading-relaxed text-neutral-600">
                 <span
@@ -229,7 +229,7 @@ export default function SnapCasePage() {
                   className="mt-2 block h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-300"
                   aria-hidden="true"
                 />
-                Real-world object detection
+                Real world object detection
               </li>
               <li className="flex gap-3 text-base leading-relaxed text-neutral-600">
                 <span
