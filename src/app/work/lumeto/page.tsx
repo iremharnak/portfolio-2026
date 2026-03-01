@@ -101,7 +101,7 @@ export default function LumetoCasePage() {
             <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
               Traditional actor-led crisis simulation training is expensive,
               difficult to scale, and logistically complex. As a result,
-              trainees often receive limited practice before facing real-world
+              trainees often receive limited practice before facing real world
               high-stakes scenarios.
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
@@ -327,7 +327,7 @@ export default function LumetoCasePage() {
               Adopted within healthcare and public safety training contexts.
             </p>
             <p className="mt-4 text-sm leading-relaxed text-neutral-400 italic">
-              User scale reflects real-world deployment following platform
+              User scale reflects real world deployment following platform
               launch.
             </p>
           </FadeIn>

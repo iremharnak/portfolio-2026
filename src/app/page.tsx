@@ -16,7 +16,7 @@ export default function HomePage() {
               Senior Product Designer &amp; Design Engineer
             </p>
             <h1 className="mt-6 font-serif text-4xl leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-              Building structured, accessible systems under real-world
+              Building structured, accessible systems under real world
               constraints.
             </h1>
             <p className="mt-6 text-base leading-relaxed text-black/70 lg:text-lg">
