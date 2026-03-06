@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="mx-auto max-w-6xl px-6 pt-24 pb-12 sm:px-8 sm:pt-32 sm:pb-16">
+      <section className="mx-auto max-w-6xl px-6 pt-24 pb-8 sm:px-8 sm:pt-32 sm:pb-10">
         <div className="max-w-3xl">
           <FadeIn>
             <p className="text-base font-medium text-black lg:text-lg">
@@ -24,17 +24,13 @@ export default function HomePage() {
               translate complexity into scalable, usable products across
               enterprise systems and emerging technologies.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-black/50">
-              Trusted across enterprise insurance, financial infrastructure,
-              immersive XR training platforms, and AR experimentation.
-            </p>
           </FadeIn>
         </div>
       </section>
 
       {/* About */}
       <section
-        className="mx-auto max-w-6xl px-6 py-16 sm:px-8 sm:py-24"
+        className="mx-auto max-w-6xl px-6 pt-8 pb-16 sm:px-8 sm:pt-12 sm:pb-24"
         aria-labelledby="about-heading"
       >
         <div className="max-w-3xl">
@@ -53,17 +49,9 @@ export default function HomePage() {
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
               I design systems that translate complex constraints into clear,
-              scalable interaction models, whether navigating regulatory logic,
-              modernizing legacy platforms, or prototyping new forms of spatial
-              and machine learning driven interaction.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              I&rsquo;m particularly drawn to teams building thoughtful products
-              under real world complexity.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              I am comfortable operating in both highly regulated environments
-              and fast-moving experimental teams.
+              scalable interaction models. I&apos;m drawn to teams building
+              thoughtful products under real world complexity, whether in highly
+              regulated environments or fast-moving experimental ones.
             </p>
           </FadeIn>
         </div>
