@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { FadeIn } from "@/components/FadeIn";
 
@@ -109,6 +110,23 @@ export default function SnapCasePage() {
               interaction, and lightweight machine learning.
             </p>
           </FadeIn>
+
+          <FadeIn>
+            <div className="mt-10">
+              <Image
+                src="/Snap-experience.png"
+                alt="Nourish Snap Lens encouraging micro-habit engagement through AR interaction"
+                width={1600}
+                height={1200}
+                className="w-full"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+            </div>
+            <p className="mt-3 text-sm text-neutral-400">
+              Nourish Snap Lens encouraging micro-habit engagement through AR
+              interaction
+            </p>
+          </FadeIn>
         </section>
 
         {/* The Challenge */}
@@ -216,6 +234,22 @@ export default function SnapCasePage() {
               </li>
             </ul>
           </FadeIn>
+
+          <FadeIn>
+            <div className="mt-10">
+              <Image
+                src="/Snap-lens-activation.png"
+                alt="Lens interaction flow from activation to habit reinforcement"
+                width={1600}
+                height={1200}
+                className="w-full"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+            </div>
+            <p className="mt-3 text-sm text-neutral-400">
+              Lens interaction flow from activation to habit reinforcement
+            </p>
+          </FadeIn>
         </section>
 
         {/* System Thinking in AR */}
@@ -262,6 +296,23 @@ export default function SnapCasePage() {
               intuitive within seconds of activation.
             </p>
           </FadeIn>
+
+          <FadeIn>
+            <div className="mt-10">
+              <Image
+                src="/Snap-characters.png"
+                alt="Characters representing motivational actions triggered through environment interaction"
+                width={1600}
+                height={1200}
+                className="w-full"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+            </div>
+            <p className="mt-3 text-sm text-neutral-400">
+              Characters representing motivational actions triggered through
+              environment interaction
+            </p>
+          </FadeIn>
         </section>
 
         {/* Impact */}
@@ -276,6 +327,14 @@ export default function SnapCasePage() {
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
               Continued collaboration as an Official Snap Lens Creator.
             </p>
+            <a
+              href="https://www.youtube.com/watch?v=XkpF0hV3lrE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block text-sm font-medium text-neutral-900 underline underline-offset-4 decoration-neutral-300 hover:decoration-neutral-900 transition-colors duration-200"
+            >
+              Watch prototype demonstration
+            </a>
           </FadeIn>
         </section>
 
