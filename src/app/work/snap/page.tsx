@@ -40,6 +40,10 @@ export default function SnapCasePage() {
               Exploring behavior design through rapid AR prototyping and machine
               learning integration.
             </h1>
+            <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              Rapid AR prototype developed during Snapchat Creator Residency
+              using ML-driven interaction.
+            </p>
           </FadeIn>
         </header>
 

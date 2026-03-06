@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { FadeIn } from "@/components/FadeIn";
 
@@ -40,6 +41,9 @@ export default function LumetoCasePage() {
               Designing a scalable XR training platform from concept to
               enterprise deployment.
             </h1>
+            <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              0 → 1 enterprise XR training platform deployed to 15,000+ users.
+            </p>
           </FadeIn>
         </header>
 
@@ -108,6 +112,25 @@ export default function LumetoCasePage() {
               Lumeto set out to build a scalable, data-informed XR training
               ecosystem that could support both synchronous multiplayer
               simulations and asynchronous practice environments.
+            </p>
+          </FadeIn>
+
+          <FadeIn>
+            <div className="mt-10">
+              <Image
+                src="/LumetoSimulationEnvironment.png"
+                alt="Jay Street XR training environment used for scenario simulations"
+                width={1600}
+                height={1200}
+                className="w-full"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+            </div>
+            <p className="mt-3 text-sm text-neutral-400">
+              Jay Street XR training environment used for scenario simulations.
+              <br />
+              Environment design supported spatial navigation and scenario
+              immersion.
             </p>
           </FadeIn>
         </section>
@@ -237,6 +260,27 @@ export default function LumetoCasePage() {
               </li>
             </ul>
           </FadeIn>
+
+          <FadeIn>
+            <div className="mt-10">
+              <Image
+                src="/Lumeto-Controllers-Desktop.png"
+                alt="Controller interaction model designed for intuitive VR navigation and object interaction"
+                width={1600}
+                height={1200}
+                className="w-full"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+            </div>
+            <p className="mt-3 text-sm text-neutral-400">
+              Controller interaction model designed for intuitive VR navigation
+              and object interaction.
+              <br />
+              Mappings were tested in simulation scenarios to ensure actions
+              such as teleportation, view rotation, and object manipulation
+              remained discoverable under stress.
+            </p>
+          </FadeIn>
         </section>
 
         {/* System Architecture */}
@@ -304,6 +348,21 @@ export default function LumetoCasePage() {
                 Data-informed evaluation potential
               </li>
             </ul>
+
+            <div className="mt-10">
+              <Image
+                src="/Lumeto-System-Architecture.png"
+                alt="Scenario architecture linking planning tools with immersive VR training environments"
+                width={1600}
+                height={1200}
+                className="w-full"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+            </div>
+            <p className="mt-3 text-sm text-neutral-400">
+              Scenario architecture linking planning tools with immersive VR
+              training environments.
+            </p>
           </FadeIn>
         </section>
 
@@ -345,9 +404,15 @@ export default function LumetoCasePage() {
               disruptive in spatial environments.
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              This experience strengthened my ability to translate complex
-              learning objectives into structured systems — balancing immersion,
-              usability, and technical feasibility.
+              What this project reinforced for me is that immersive systems
+              still depend on clear structural logic. Scenarios, roles, and
+              interactions must be modeled explicitly before they can become
+              believable experiences.
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              This work strengthened my ability to translate complex learning
+              objectives into structured systems that balance immersion,
+              usability, and technical constraints.
             </p>
           </FadeIn>
         </section>
