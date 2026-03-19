@@ -57,6 +57,45 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Currently Building */}
+      <section
+        className="mx-auto max-w-6xl px-6 pt-8 pb-16 sm:px-8 sm:pt-12 sm:pb-24"
+        aria-labelledby="currently-building-heading"
+      >
+        <div className="max-w-3xl">
+          <FadeIn>
+            <h2
+              id="currently-building-heading"
+              className="text-xs font-medium uppercase tracking-widest text-neutral-400"
+            >
+              CURRENTLY BUILDING
+            </h2>
+            <h3 className="mt-4 font-serif text-3xl tracking-tight sm:text-4xl">
+              Anchor
+            </h3>
+            <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              An early-stage emotional reset tool designed for people who hold
+              it together in the moment and feel the impact later.
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              I&rsquo;m building Anchor to explore how short, structured
+              interactions can help reduce emotional carryover without turning
+              relief into another task. The web app is live and already
+              attracting early sign-ups through direct sharing and early
+              audience interest.
+            </p>
+            <a
+              href="https://anchorreset.com/?utm_source=portfolio&utm_medium=referral&utm_campaign=personal_site"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block text-sm font-medium text-neutral-900 underline underline-offset-4 decoration-neutral-300 hover:decoration-neutral-900 transition-colors duration-200"
+            >
+              Try the live product
+            </a>
+          </FadeIn>
+        </div>
+      </section>
+
       {/* Selected Work */}
       <section
         id="work"
