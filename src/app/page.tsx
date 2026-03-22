@@ -1,6 +1,23 @@
+import type { Metadata } from "next";
 import { projects, writingPosts } from "@/data/projects";
 import { ProjectBlock } from "@/components/ProjectBlock";
 import { FadeIn } from "@/components/FadeIn";
+
+export const metadata: Metadata = {
+  title: "Irem Harnak | Senior Product Designer & Design Engineer",
+  description:
+    "Senior Product Designer and Design Engineer building accessible, scalable systems across enterprise platforms and emerging technologies. Portfolio featuring product design, design systems, XR, AR, and production-aware UX.",
+  alternates: {
+    canonical: "https://iremharnak.com",
+  },
+  openGraph: {
+    title: "Irem Harnak | Senior Product Designer & Design Engineer",
+    description:
+      "Senior Product Designer and Design Engineer building accessible, scalable systems across enterprise platforms and emerging technologies. Portfolio featuring product design, design systems, XR, AR, and production-aware UX.",
+    type: "website",
+    url: "https://iremharnak.com",
+  },
+};
 
 export default function HomePage() {
   return (
@@ -16,7 +33,7 @@ export default function HomePage() {
               Senior Product Designer &amp; Design Engineer
             </p>
             <h1 className="mt-6 font-serif text-4xl leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-              Building structured, accessible systems under real world
+              Building structured, accessible systems under real-world
               constraints.
             </h1>
             <p className="mt-6 text-base leading-relaxed text-black/70 lg:text-lg">
@@ -48,9 +65,14 @@ export default function HomePage() {
               immersive XR training platforms, and experimental AR environments.
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              I specialize in accessible, scalable product systems across
+              enterprise platforms, emerging technologies, and complex
+              interaction models.
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
               I design systems that translate complex constraints into clear,
               scalable interaction models. I&apos;m drawn to teams building
-              thoughtful products under real world complexity, whether in highly
+              thoughtful products under real-world complexity, whether in highly
               regulated environments or fast-moving experimental ones.
             </p>
           </FadeIn>
@@ -132,7 +154,7 @@ export default function HomePage() {
           </h2>
           <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
             I write about how structured systems shape real products, from
-            enterprise infrastructure to immersive and machine learning driven
+            enterprise infrastructure to immersive and machine-learning-driven
             environments.
           </p>
         </FadeIn>

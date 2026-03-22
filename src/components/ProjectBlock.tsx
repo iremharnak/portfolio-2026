@@ -71,7 +71,7 @@ export function ProjectBlock({ project, index }: ProjectBlockProps) {
       >
         <Image
           src={project.image}
-          alt={`${project.headline} project visual`}
+          alt={project.imageAlt}
           width={1200}
           height={900}
           className="aspect-[4/3] w-full object-cover bg-neutral-100"

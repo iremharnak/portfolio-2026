@@ -7,6 +7,7 @@ export type Project = {
   ctaLabel: string;
   microSignals: string[];
   image: string;
+  imageAlt: string;
 
   caseHeroLine?: string;
   role: string;
@@ -44,6 +45,8 @@ export const projects: Project[] = [
     ctaLabel: "View Case Study",
     microSignals: ["146,000+ quotes initiated (FY25 team outcome)", "2\u20133 production releases shipped"],
     image: "/td-2026.png",
+    imageAlt:
+      "TD small business insurance quoting interface showing a structured enterprise workflow for eligibility, accessibility, and progressive disclosure.",
 
     caseHeroLine:
       "Designing within compliance constraints to improve quote progression and structural clarity.",
@@ -87,6 +90,8 @@ export const projects: Project[] = [
     ctaLabel: "View Case Study",
     microSignals: ["+63% platform usage", "71% user satisfaction"],
     image: "/bmo-2026.png",
+    imageAlt:
+      "BMO wealth platform interface illustrating accessible design-system modernization for enterprise investment workflows.",
 
     caseHeroLine:
       "Modernizing a wealth platform by improving usability, accessibility, and system-level consistency.",
@@ -125,6 +130,8 @@ export const projects: Project[] = [
     ctaLabel: "View Case Study",
     microSignals: ["15,000+ enterprise users", "Healthcare and public safety deployment"],
     image: "/lumeto-2026.png",
+    imageAlt:
+      "Lumeto XR training product scene showing immersive enterprise simulation design for healthcare and public safety learning systems.",
 
     caseHeroLine:
       "Turning complex simulation and learning goals into structured, usable XR training experiences.",
@@ -163,6 +170,8 @@ export const projects: Project[] = [
     ctaLabel: "View Case Study",
     microSignals: ["AR Creator Resident at Snap", "Rapid proof-of-concept delivery"],
     image: "/snap-2026.png",
+    imageAlt:
+      "Snap augmented reality experience concept demonstrating AR interaction design, behavior design, and rapid prototyping.",
 
     caseHeroLine:
       "Rapid prototyping and interaction storytelling to test how AR can shape habits and engagement.",

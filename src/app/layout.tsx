@@ -17,6 +17,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://iremharnak.com"),
   title: "Irem Harnak — Product Designer",
   description:
     "Product designer building clear, principled interfaces. Focused on design systems, onboarding, and data-rich tools.",
@@ -26,6 +27,7 @@ export const metadata: Metadata = {
       "Product designer building clear, principled interfaces. Focused on design systems, onboarding, and data-rich tools.",
     type: "website",
     locale: "en_US",
+    url: "https://iremharnak.com",
   },
 };
 
