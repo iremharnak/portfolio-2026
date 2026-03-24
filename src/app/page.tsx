@@ -65,11 +65,6 @@ export default function HomePage() {
               immersive XR training platforms, and experimental AR environments.
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              I specialize in accessible, scalable product systems across
-              enterprise platforms, emerging technologies, and complex
-              interaction models.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
               I design systems that translate complex constraints into clear,
               scalable interaction models. I&apos;m drawn to teams building
               thoughtful products under real-world complexity, whether in highly
@@ -102,9 +97,9 @@ export default function HomePage() {
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
               I&rsquo;m building Anchor to explore how short, structured
               interactions can help reduce emotional carryover without turning
-              relief into another task. The web app is live and already
-              attracting early sign-ups through direct sharing and early
-              audience interest.
+              relief into another task. The web app is live, with early
+              validation through 51K+ organic views across targeted communities
+              and 2,100+ LinkedIn impressions in the first week of launch.
             </p>
             <a
               href="https://anchorreset.com/?utm_source=portfolio&utm_medium=referral&utm_campaign=personal_site"
