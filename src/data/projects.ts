@@ -17,10 +17,35 @@ export type Project = {
   technologies: string;
   team?: string;
 
+  challengeHeading?: string;
   challenge: string;
+  contributionsHeading?: string;
+  contributionsImage?: string;
+  contributionsImageAlt?: string;
+  contributionsImageCaption?: string;
   contributions: string[];
-  impact: string[];
+  gallery?: Array<{
+    src: string;
+    alt: string;
+    caption: string;
+    orientation: "portrait" | "landscape";
+  }>;
+  followUpHeading?: string;
+  followUp?: string[];
+  impact: Array<
+    | string
+    | {
+        text: string;
+        href: string;
+        highlightMetrics?: boolean;
+      }
+  >;
+  impactMedia?: {
+    src: string;
+    alt: string;
+  };
   impactNote?: string;
+  nextHeading?: string;
   nextOpportunity: string;
 };
 
@@ -194,6 +219,106 @@ export const projects: Project[] = [
       "This case emphasizes rapid prototyping, interaction storytelling, and platform-specific constraint handling.",
     nextOpportunity:
       "Apply the same experimentation rigor to product surfaces with deeper metrics by pairing interaction prototypes with stronger instrumentation and ongoing measurement.",
+  },
+
+  {
+    slug: "madethisway",
+    org: "CFC Media Lab",
+    headline:
+      "From Personal Photography to an Interactive VR Documentary at Venice Film Festival",
+    summary:
+      "Co-wrote, co-directed, and co-produced an 18-minute interactive mixed-media VR experience exploring transgender identity and fluid masculinity, selected for Venice Virtual Reality at the 75th Venice Film Festival.",
+    bullets: [
+      "Originated the project from a personal photography series, pitched and secured co-production with CFC Media Lab after prototyping with DepthKit volumetric capture",
+      "Designed spatial interaction and narrative architecture across photographic and VR layers, balancing emotional intimacy with technical constraints",
+      "Conducted post-Venice usability testing with participants, iterated on navigation and experience design, and returned to production for the festival circuit",
+    ],
+    ctaLabel: "View Case Study",
+    microSignals: [
+      "Venice Film Festival 2018",
+      "Canadian Screen Awards nominee, Best Immersive Experience",
+      "Hot Docs, FNC, Busan",
+    ],
+    image: "/MADE THIS WAY- DEVYN.png",
+    imageAlt:
+      "Made This Way VR documentary still featuring Devyn for the CFC Media Lab immersive case study.",
+
+    caseHeroLine:
+      "From personal photography to an interactive VR documentary selected for Venice Virtual Reality.",
+    role: "Co-Writer, Co-Director, Co-Producer, Interaction Designer",
+    scope: "Interactive mixed-media VR documentary",
+    tenure: "2018",
+    environment: "Festival-circuit immersive storytelling",
+    technologies: "DepthKit, volumetric capture, spatial interaction design",
+    team: "Co-produced with CFC Media Lab",
+    challengeHeading: "Origin",
+    contributionsHeading: "From Prototype to Venice",
+    contributionsImage: "/MADE THIS WAY- DEVYN.png",
+    contributionsImageAlt:
+      "Made This Way VR documentary still featuring Devyn.",
+    contributionsImageCaption:
+      'Devyn in "Made This Way: Redefining Masculinity"',
+
+    challenge:
+      "I spent ten years as a fashion photographer. By 2016 I was feeling stuck; technically proficient, creatively restless, and drawn to something more personal.\n\nAround that time, trans men were becoming more visible publicly, but in daily life they remained largely invisible. Passing was a survival mechanism. Being seen meant risk. I started attending support groups, spending time in people's homes, being invited into the private spaces where they felt most like themselves.\n\nIt changed me. The intimacy of those encounters, the specificity of how each person had built their own identity against enormous resistance, felt urgent to share. I wanted to build a bridge. Not explain trans experience to outsiders, but let them feel what I had felt standing in those rooms.\n\nMy co-director Elli Raynai was working in VR production at the time. We both understood immediately that VR was the only medium that could approximate the experience of being physically present with someone; the scale of another body, the sense of shared space, the feeling of being trusted with someone's story.",
+    contributions: [
+      "We started with a prototype. Using DepthKit volumetric capture, we developed an early proof of concept that combined my photographic series with spatial VR testimonials; letting viewers move physically around the subjects as they spoke.",
+      "We pitched the prototype in Los Angeles, New York, and Toronto. CFC Media Lab came on board as co-producer, marking their first project to compete at Venice Film Festival.",
+      "The final experience ran 18 minutes and placed viewers inside the personal spaces of two participants, Devyn Farries and Elijah Miley. The interaction design had to solve a specific problem: how do you let someone move freely through an intimate space without the navigation itself breaking the emotional connection? We designed spatial interaction around presence rather than control; minimal interface, body-scale volumetric captures, the participant's own artwork integrated into the environment around them.",
+      "The experience was selected for Venice Virtual Reality at the 75th Venice Film Festival in 2018.",
+    ],
+    gallery: [
+      {
+        src: "/MadeThisWay-Poster.png",
+        alt: "Made This Way poster.",
+        caption: "Made This Way poster",
+        orientation: "portrait",
+      },
+      {
+        src: "/BrooklynBois.png",
+        alt: "Brooklyn Bois still from Made This Way.",
+        caption: "Brooklyn Bois",
+        orientation: "landscape",
+      },
+      {
+        src: "/Devyn Art.png",
+        alt: "Devyn's Art in VR from Made This Way.",
+        caption: "Devyn's Art in VR",
+        orientation: "landscape",
+      },
+      {
+        src: "/MadeThisWay-BTS.png",
+        alt: "Behind the scenes from Made This Way.",
+        caption: "Volumetric capture set",
+        orientation: "landscape",
+      },
+    ],
+    followUpHeading: "Usability Testing and Iteration",
+    followUp: [
+      "After Venice we ran structured usability testing with four participants. I recruited the participants, designed the testing plan, and facilitated the sessions.",
+      "What we found was that the entry sequence and navigation created friction at the wrong moments — points where the emotional immersion was highest but the interaction was least clear. We redesigned the menu structure and refined the navigation flow based on what we observed.",
+      "We returned to production, shot additional footage, and submitted the revised experience to the broader festival circuit.",
+    ],
+    impact: [
+      {
+        text: "Selected for Venice Virtual Reality, 75th Venice Film Festival, 2018",
+        href: "https://www.labiennale.org/en/cinema/2018/lineup/venice-virtual-reality/made-way-redefining-masculinity",
+        highlightMetrics: false,
+      },
+      {
+        text: "Canadian Screen Awards nominee, Best Immersive Experience, 2019",
+        href: "https://www.academy.ca/2019/made-this-way-redefining-masculinity/",
+        highlightMetrics: false,
+      },
+      "Screened at Festival du Nouveau Cinema, HotDocs, Busan International Film Festival, Regent's Park Open Air Theatre, and Inside Out Toronto",
+    ],
+    impactMedia: {
+      src: "/mtw-gif2.gif",
+      alt: "Animated scene from Made This Way.",
+    },
+    nextHeading: "Reflection",
+    nextOpportunity:
+      "This project taught me that the most important design decisions aren't always structural. Sometimes they are about what you leave out; how much interface, how much guidance, how much mediation stands between a viewer and an experience.\n\nWorking at the intersection of documentary, photography, and spatial interaction design also clarified something about how I approach all design work: I'm most interested in the moments where technology disappears and something human takes over.",
   },
 ];
 

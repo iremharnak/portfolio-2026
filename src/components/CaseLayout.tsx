@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FadeIn } from "./FadeIn";
 import type { Project } from "@/data/projects";
@@ -16,6 +17,27 @@ function highlightMetrics(text: string): React.ReactNode {
     ) : (
       part
     )
+  );
+}
+
+function renderImpactItem(item: Project["impact"][number]): React.ReactNode {
+  if (typeof item === "string") {
+    return highlightMetrics(item);
+  }
+
+  const content = item.highlightMetrics === false
+    ? item.text
+    : highlightMetrics(item.text);
+
+  return (
+    <a
+      href={item.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline underline-offset-4 decoration-neutral-300 hover:decoration-neutral-900 transition-colors duration-200"
+    >
+      {content}
+    </a>
   );
 }
 
@@ -96,11 +118,13 @@ export function CaseLayout({ project }: CaseLayoutProps) {
       <section className="py-12">
         <FadeIn>
           <h2 className="font-serif text-2xl tracking-tight sm:text-3xl">
-            The Challenge
+            {project.challengeHeading ?? "The Challenge"}
           </h2>
-          <p className="mt-4 text-base leading-relaxed text-neutral-600 sm:text-lg">
-            {project.challenge}
-          </p>
+          <div className="mt-4 space-y-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+            {project.challenge.split("\n\n").map((paragraph, i) => (
+              <p key={i}>{paragraph}</p>
+            ))}
+          </div>
         </FadeIn>
       </section>
 
@@ -108,21 +132,86 @@ export function CaseLayout({ project }: CaseLayoutProps) {
       <section className="py-12 border-t border-neutral-100">
         <FadeIn>
           <h2 className="font-serif text-2xl tracking-tight sm:text-3xl">
-            What I Did
+            {project.contributionsHeading ?? "What I Did"}
           </h2>
-          <ul className="mt-6 space-y-4" role="list">
+          {project.contributionsImage && project.contributionsImageAlt && (
+            <div className="mt-6">
+              <Image
+                src={project.contributionsImage}
+                alt={project.contributionsImageAlt}
+                width={1200}
+                height={900}
+                className="aspect-[4/3] w-full object-cover bg-neutral-100"
+                sizes="(max-width: 1024px) 100vw, 768px"
+              />
+              {project.contributionsImageCaption && (
+                <p className="mt-3 text-sm text-neutral-400">
+                  {project.contributionsImageCaption}
+                </p>
+              )}
+            </div>
+          )}
+          <div className="mt-6 space-y-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
             {project.contributions.map((item, i) => (
-              <li
-                key={i}
-                className="flex gap-3 text-base leading-relaxed text-neutral-600"
-              >
-                <span className="mt-2 block h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-300" aria-hidden="true" />
-                {item}
-              </li>
+              <p key={i}>{item}</p>
             ))}
-          </ul>
+          </div>
         </FadeIn>
       </section>
+
+      {project.gallery && project.gallery.length >= 3 && (
+        <section className="py-12 border-t border-neutral-100">
+          <FadeIn>
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-12 md:items-start">
+              <div className="md:col-span-7">
+                <Image
+                  src={project.gallery[0].src}
+                  alt={project.gallery[0].alt}
+                  width={900}
+                  height={1200}
+                  className="w-full bg-neutral-100"
+                  sizes="(max-width: 768px) 100vw, 32vw"
+                />
+                <p className="mt-3 text-sm text-neutral-400">
+                  {project.gallery[0].caption}
+                </p>
+              </div>
+              <div className="md:col-span-5 md:flex md:h-full md:flex-col md:justify-between">
+                {project.gallery.slice(1).map((item) => (
+                  <div key={item.src} className="mb-6 md:mb-0">
+                    <Image
+                      src={item.src}
+                      alt={item.alt}
+                      width={1200}
+                      height={900}
+                      className="w-full bg-neutral-100"
+                      sizes="(max-width: 768px) 100vw, 28vw"
+                    />
+                    <p className="mt-3 text-sm text-neutral-400">
+                      {item.caption}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </FadeIn>
+        </section>
+      )}
+
+      {project.followUp && project.followUpHeading && (
+        <section className="py-12 border-t border-neutral-100">
+          <FadeIn>
+            <h2 className="font-serif text-2xl tracking-tight sm:text-3xl">
+              {project.followUpHeading}
+            </h2>
+            <div className="mt-6 space-y-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              {project.followUp.map((item, i) => (
+                <p key={i}>{item}</p>
+              ))}
+            </div>
+          </FadeIn>
+        </section>
+      )}
 
       {/* Impact */}
       <section className="pt-16 pb-12 border-t border-neutral-100">
@@ -137,7 +226,7 @@ export function CaseLayout({ project }: CaseLayoutProps) {
                 className="flex gap-3 text-base leading-relaxed text-neutral-600 lg:text-lg"
               >
                 <span className="mt-2.5 block h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900" aria-hidden="true" />
-                {highlightMetrics(item)}
+                {renderImpactItem(item)}
               </li>
             ))}
           </ul>
@@ -146,6 +235,19 @@ export function CaseLayout({ project }: CaseLayoutProps) {
               {project.impactNote}
             </p>
           )}
+          {project.impactMedia && (
+            <div className="mt-8">
+              <Image
+                src={project.impactMedia.src}
+                alt={project.impactMedia.alt}
+                width={1200}
+                height={900}
+                className="w-full bg-neutral-100"
+                unoptimized
+                sizes="(max-width: 1024px) 100vw, 768px"
+              />
+            </div>
+          )}
         </FadeIn>
       </section>
 
@@ -153,11 +255,13 @@ export function CaseLayout({ project }: CaseLayoutProps) {
       <section className="py-12 border-t border-neutral-100">
         <FadeIn>
           <h2 className="font-serif text-2xl tracking-tight sm:text-3xl">
-            What I&rsquo;m Looking for Next
+            {project.nextHeading ?? "What I&rsquo;m Looking for Next"}
           </h2>
-          <p className="mt-4 text-base leading-relaxed text-neutral-600 sm:text-lg">
-            {project.nextOpportunity}
-          </p>
+          <div className="mt-4 space-y-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+            {project.nextOpportunity.split("\n\n").map((paragraph, i) => (
+              <p key={i}>{paragraph}</p>
+            ))}
+          </div>
         </FadeIn>
       </section>
 
