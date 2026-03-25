@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   title: "Irem Harnak — Product Designer",
   description:
     "Product designer building clear, principled interfaces. Focused on design systems, onboarding, and data-rich tools.",
+  icons: {
+    icon: "/imi-favicon.png",
+    shortcut: "/imi-favicon.png",
+    apple: "/imi-favicon.png",
+  },
   openGraph: {
     title: "Irem Harnak — Product Designer",
     description:
