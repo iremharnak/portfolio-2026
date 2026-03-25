@@ -16,6 +16,21 @@ export const metadata: Metadata = {
       "Senior Product Designer and Design Engineer building accessible, scalable systems across enterprise platforms and emerging technologies. Portfolio featuring product design, design systems, XR, AR, and production-aware UX.",
     type: "website",
     url: "https://iremharnak.com",
+    images: [
+      {
+        url: "/irem-portfolio-social.png",
+        width: 1200,
+        height: 630,
+        alt: "Irem Harnak portfolio social preview",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Irem Harnak | Senior Product Designer & Design Engineer",
+    description:
+      "Senior Product Designer and Design Engineer building accessible, scalable systems across enterprise platforms and emerging technologies. Portfolio featuring product design, design systems, XR, AR, and production-aware UX.",
+    images: ["/irem-portfolio-social.png"],
   },
 };
 
