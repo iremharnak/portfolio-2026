@@ -113,14 +113,19 @@ export default function TDCasePage() {
               Context
             </h2>
             <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              Small business insurance quoting required users to navigate layered
-              eligibility logic, regulatory disclosures, and multi-step financial
-              inputs.
+              TD&apos;s small business insurance quoting flow had a significant
+              drop-off problem. Users were abandoning mid-stream because the
+              flow front-loaded eligibility questions and complex financial
+              inputs before they had enough context to feel confident
+              continuing. For Property, Auto, and Liability lines, incomplete
+              quotes meant direct revenue loss and unrealized conversion across
+              a high-intent user segment.
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              The challenge was not simplification. It was structuring complexity
-              responsibly without compromising compliance or conversion
-              performance.
+              The challenge was not to simplify the process at the cost of
+              compliance. It was to restructure the sequencing so users could
+              build confidence progressively, moving through complexity at a
+              pace that felt manageable rather than overwhelming.
             </p>
           </FadeIn>
         </section>
