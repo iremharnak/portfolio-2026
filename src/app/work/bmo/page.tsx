@@ -132,6 +132,25 @@ export default function BMOCasePage() {
           </FadeIn>
         </section>
 
+        <section className="py-16 sm:py-20 border-t border-neutral-200">
+          <FadeIn>
+            <div className="mx-auto max-w-sm">
+              <video
+                className="w-full rounded-md bg-neutral-100"
+                controls
+                playsInline
+                preload="metadata"
+              >
+                <source src="/GW-mobileApp-2.MP4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <p className="mt-3 text-sm text-neutral-400">
+                Investment platform (Gateway) testing environment
+              </p>
+            </div>
+          </FadeIn>
+        </section>
+
         {/* Section 1: Document Retrieval Modernization */}
         <section className="py-16 sm:py-20 border-t border-neutral-200">
           <FadeIn>
@@ -141,6 +160,22 @@ export default function BMOCasePage() {
             <p className="mt-2 text-base text-neutral-400">
               Reduce friction in high-frequency workflows
             </p>
+          </FadeIn>
+
+          <FadeIn>
+            <div className="mt-10">
+              <div className="aspect-video w-full overflow-hidden rounded-md bg-neutral-100">
+                <iframe
+                  src="https://www.loom.com/embed/15c73be646dc40ee9807a6a4236ec5d3"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="h-full w-full"
+                />
+              </div>
+              <p className="mt-3 text-sm text-neutral-400">
+                Edocuments Modernization
+              </p>
+            </div>
           </FadeIn>
 
           <FadeIn>
@@ -234,6 +269,22 @@ export default function BMOCasePage() {
             <p className="mt-2 text-base text-neutral-400">
               Clarifying document delivery and notification behavior
             </p>
+          </FadeIn>
+
+          <FadeIn>
+            <div className="mt-10">
+              <div className="aspect-video w-full overflow-hidden rounded-md bg-neutral-100">
+                <iframe
+                  src="https://www.loom.com/embed/2578f93f615a48778f540d90fabe0b39"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="h-full w-full"
+                />
+              </div>
+              <p className="mt-3 text-sm text-neutral-400">
+                Improving Account Preferences
+              </p>
+            </div>
           </FadeIn>
 
           <FadeIn>
