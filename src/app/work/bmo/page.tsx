@@ -112,19 +112,22 @@ export default function BMOCasePage() {
               Context
             </h2>
             <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              The platform supported critical wealth management workflows,
-              including investment reporting, document retrieval, and account
-              preferences.
+              BMO&apos;s wealth platform served a predominantly 55+ client
+              base managing critical financial assets. Digital adoption was
+              lagging, mobile engagement was low, and document retrieval
+              created significant friction for users who needed to access and
+              batch download multiple document types across tax years. Account
+              preferences had not kept pace with modern interaction standards,
+              creating additional support burden and eroding confidence in the
+              platform.
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              While functional, several interaction patterns created friction —
-              particularly in high-frequency document workflows and preference
-              management.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              The goal was to improve usability and accessibility while
-              modernizing component behavior within a complex enterprise
-              environment, without disrupting delivery cycles.
+              The business case was clear. For a wealth management platform
+              serving high-net-worth clients, friction at this level was not a
+              minor inconvenience. It was a trust and retention risk.
+              Modernization was prioritized to reduce that friction, improve
+              digital adoption, and bring the platform experience in line with
+              client expectations at that wealth tier.
             </p>
           </FadeIn>
         </section>
