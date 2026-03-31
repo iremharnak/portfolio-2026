@@ -225,7 +225,7 @@ export const projects: Project[] = [
     slug: "madethisway",
     org: "CFC Media Lab",
     headline:
-      "From Personal Photography to an Interactive VR Documentary at Venice Film Festival",
+      "From Photography Project to an Interactive VR Documentary at Venice Film Festival",
     summary:
       "Co-wrote, co-directed, and co-produced an 18-minute interactive mixed-media VR experience exploring transgender identity and fluid masculinity, selected for Venice Virtual Reality at the 75th Venice Film Festival.",
     bullets: [
