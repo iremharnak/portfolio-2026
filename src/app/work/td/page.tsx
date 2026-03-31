@@ -139,7 +139,19 @@ export default function TDCasePage() {
           </FadeIn>
 
           <FadeIn>
-            <div className="mt-10">
+            <div className="relative mt-6 h-0 pb-[56.25%]">
+              <iframe
+                src="https://www.loom.com/embed/386bbca549d94f07bf04227324ccc1a3"
+                title="TD progressive disclosure Loom walkthrough"
+                frameBorder="0"
+                allowFullScreen
+                className="absolute left-0 top-0 h-full w-full"
+              />
+            </div>
+          </FadeIn>
+
+          <FadeIn>
+            <div className="mt-8">
               <Image
                 src="/TD-Progressive-Disclosure.png"
                 alt="Progressive disclosure flow showing staged eligibility logic"
@@ -207,9 +219,21 @@ export default function TDCasePage() {
             </h2>
           </FadeIn>
 
+          <FadeIn>
+            <div className="relative mt-6 h-0 pb-[56.25%]">
+              <iframe
+                src="https://www.loom.com/embed/fb25cafb798041f3b5f205f497b636af"
+                title="TD API-driven vehicle selection Loom walkthrough"
+                frameBorder="0"
+                allowFullScreen
+                className="absolute left-0 top-0 h-full w-full"
+              />
+            </div>
+          </FadeIn>
+
           {/* Problem visual */}
           <FadeIn>
-            <div className="mt-10">
+            <div className="mt-8">
               <Image
                 src="/Vehicle-Dropdown-Problem.png"
                 alt="Problem: Long flat vehicle dropdown presenting full list without structured grouping"
