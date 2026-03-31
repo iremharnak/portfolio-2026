@@ -213,7 +213,7 @@ export default function BMOCasePage() {
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
               The modernization focused on improving scannability, clarifying
-              filtering context, and enabling clearer bulk-selection patterns —
+              filtering context, and enabling clearer bulk-selection patterns
               while preserving familiarity for existing users.
             </p>
             <ul className="mt-6 space-y-3" role="list">
