@@ -21,7 +21,7 @@ export function Nav() {
             Work
           </Link>
           <a
-            href="https://docs.google.com/document/d/14NH6yV_4lWmrw7l8mhn485-60t6eUiA9BkNHR-vdAk0/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1P9Mnb8awadwR_43omrbUZSjOcjitav1D/edit?usp=sharing&ouid=109237708218307948923&rtpof=true&sd=true"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-neutral-500 hover:text-neutral-900 transition-colors duration-200"
