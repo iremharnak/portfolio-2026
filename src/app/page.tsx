@@ -191,6 +191,8 @@ export default function HomePage() {
             <FadeIn key={post.title}>
               <a
                 href={post.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group block"
               >
                 <h3 className="font-serif text-xl tracking-tight sm:text-2xl group-hover:text-neutral-500 transition-colors duration-200">
