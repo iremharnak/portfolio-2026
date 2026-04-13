@@ -324,6 +324,12 @@ export const projects: Project[] = [
 
 export const writingPosts: WritingPost[] = [
   {
+    title: "I Stopped Optimizing for Output",
+    description:
+      "A reflection on stepping away from output as the default metric and choosing a more sustainable pace.",
+    href: "https://open.substack.com/pub/iremharnak/p/i-stopped-optimizing-for-output-i?r=7pknbb&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+  },
+  {
     title: "Accessibility Is a System Constraint, Not a Final Step",
     description:
       "Why accessibility breaks when it\u2019s treated as a final layer instead of a structural decision.",
