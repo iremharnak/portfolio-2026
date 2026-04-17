@@ -164,22 +164,32 @@ export default function BMOCasePage() {
 
           <FadeIn>
             <p className="mt-10 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              Before moving into redesign work, we mapped the end-to-end flow
-              for a core platform persona to identify where friction was
-              accumulating, where users were dropping off, and which moments
-              carried the most trust risk. The goal was not only to document
-              task paths, but to surface pain points and opportunity areas
-              across the broader platform experience.
+              Direct access to end users wasn&apos;t available. BMO&apos;s client
+              base, predominantly high-net-worth individuals 55 and older,
+              couldn&apos;t be brought into a standard research process. That
+              constraint shaped everything about how we approached discovery.
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              We were collecting feedback from multiple sources at the same
-              time. WalkMe gave us in-product feedback, Adobe Analytics helped
-              us see behavioral drop-off, and investment advisors shared direct
-              feedback through email and surveys. Because our actual end users
-              were not directly accessible, we built a recurring advisor panel.
-              The advisors became the bridge between the team and real user
-              behavior, helping us validate where friction was showing up in
-              day-to-day platform use.
+              Instead of waiting for access we weren&apos;t going to get, we
+              built a multi-source research model. WalkMe gave us in-product
+              behavioral signals. Adobe Analytics surfaced where users were
+              dropping off. And because advisors were the closest point of
+              contact to real user behavior, we formalized that relationship
+              into a recurring advisor panel, a structured bridge between the
+              design team and the people actually using the platform day to
+              day.
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              We layered event-based surveys on top of that, placed at specific
+              moments in the experience to capture friction closer to where it
+              was actually happening, rather than relying on retrospective
+              feedback that often smooths over the details that matter.
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              The goal was to triangulate. No single source was reliable enough
+              on its own. Together, they gave us enough signal to identify
+              where the platform was creating confusion, where trust was at
+              risk, and which workflows needed the most attention.
             </p>
           </FadeIn>
 
@@ -204,12 +214,10 @@ export default function BMOCasePage() {
             <div className="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-[1.4fr_0.9fr] lg:items-start">
               <div>
                 <p className="text-base leading-relaxed text-neutral-600 lg:text-lg">
-                  We also introduced event-based surveys at key moments in the
-                  experience to capture feedback closer to the behavior itself,
-                  rather than relying only on retrospective opinions. This gave
-                  us a lighter-weight way to understand confusion, hesitation,
-                  and unmet expectations inside the product, then compare those
-                  signals against advisor feedback and analytics patterns.
+                  Event-based surveys gave us a lightweight way to capture
+                  contextual feedback in the flow itself, making it easier to
+                  compare in-the-moment friction signals against advisor
+                  feedback and analytics patterns.
                 </p>
               </div>
               <div>

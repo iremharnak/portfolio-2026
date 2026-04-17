@@ -148,21 +148,27 @@ export default function LumetoCasePage() {
 
           <FadeIn>
             <p className="mt-10 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              Before designing the XR experience, I mapped several user flows
-              based on how the training was already being delivered in person.
-              We needed to understand the existing sequence of actions,
-              decision points, pain points, and teaching opportunities before
-              deciding what should be recreated, restructured, or improved in
-              XR.
+              Before designing anything, I mapped the existing in-person
+              training flows for both user groups separately. Facilitators
+              would be operating a desktop interface to run and monitor
+              scenarios, while trainees would be inside the VR environment, two
+              completely different surfaces with different needs and different
+              failure modes.
             </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
-              That work helped translate facilitator-led, scenario-based
-              training into a system that could function inside an immersive
-              environment. The user flows made it easier to see where in-person
-              friction could be reduced, where feedback loops could become more
-              explicit, and which moments had the strongest potential to be
-              leveraged spatially in XR rather than simply copied over from the
-              original training format.
+              What the mapping made clear was that the core problem with
+              in-person training wasn&apos;t just cost. It was consistency.
+              Scenarios varied depending on who was facilitating, how often
+              sessions could run, and how many people could participate at
+              once. That insight reframed the design goal. The job wasn&apos;t
+              just to recreate the training in XR. It was to standardize it,
+              so the experience could be repeated reliably across institutions
+              without depending on a specific facilitator or a specific day.
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              That became the foundation for the three design principles that
+              guided the platform: Immersion, Interactivity, and
+              Standardization.
             </p>
           </FadeIn>
 
