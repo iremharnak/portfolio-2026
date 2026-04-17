@@ -135,6 +135,55 @@ export default function LumetoCasePage() {
           </FadeIn>
         </section>
 
+        {/* Discovery */}
+        <section className="py-16 sm:py-20 border-t border-neutral-200">
+          <FadeIn>
+            <h2 className="font-serif text-2xl tracking-tight sm:text-3xl">
+              Discovery
+            </h2>
+            <p className="mt-2 text-base text-neutral-400">
+              Translating scenario-based training into XR
+            </p>
+          </FadeIn>
+
+          <FadeIn>
+            <p className="mt-10 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              Before designing the XR experience, I mapped several user flows
+              based on how the training was already being delivered in person.
+              We needed to understand the existing sequence of actions,
+              decision points, pain points, and teaching opportunities before
+              deciding what should be recreated, restructured, or improved in
+              XR.
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              That work helped translate facilitator-led, scenario-based
+              training into a system that could function inside an immersive
+              environment. The user flows made it easier to see where in-person
+              friction could be reduced, where feedback loops could become more
+              explicit, and which moments had the strongest potential to be
+              leveraged spatially in XR rather than simply copied over from the
+              original training format.
+            </p>
+          </FadeIn>
+
+          <FadeIn>
+            <div className="mt-10">
+              <Image
+                src="/involve-xr-userflow.png"
+                alt="User flow created to map in-person scenario-based training and identify pain points and opportunities before translating the experience into XR."
+                width={1600}
+                height={1200}
+                className="w-full rounded-md border border-neutral-200"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+              <p className="mt-3 text-sm text-neutral-400">
+                User flow used to understand the structure of in-person
+                scenario-based training before translating it into XR.
+              </p>
+            </div>
+          </FadeIn>
+        </section>
+
         {/* The Challenge */}
         <section className="py-16 sm:py-20 border-t border-neutral-200">
           <FadeIn>

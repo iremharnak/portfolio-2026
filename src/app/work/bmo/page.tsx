@@ -151,6 +151,85 @@ export default function BMOCasePage() {
           </FadeIn>
         </section>
 
+        {/* Discovery */}
+        <section className="py-16 sm:py-20 border-t border-neutral-200">
+          <FadeIn>
+            <h2 className="font-serif text-2xl tracking-tight sm:text-3xl">
+              Discovery
+            </h2>
+            <p className="mt-2 text-base text-neutral-400">
+              Mapping user behavior before redesigning the system
+            </p>
+          </FadeIn>
+
+          <FadeIn>
+            <p className="mt-10 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              Before moving into redesign work, we mapped the end-to-end flow
+              for a core platform persona to identify where friction was
+              accumulating, where users were dropping off, and which moments
+              carried the most trust risk. The goal was not only to document
+              task paths, but to surface pain points and opportunity areas
+              across the broader platform experience.
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              We were collecting feedback from multiple sources at the same
+              time. WalkMe gave us in-product feedback, Adobe Analytics helped
+              us see behavioral drop-off, and investment advisors shared direct
+              feedback through email and surveys. Because our actual end users
+              were not directly accessible, we built a recurring advisor panel.
+              The advisors became the bridge between the team and real user
+              behavior, helping us validate where friction was showing up in
+              day-to-day platform use.
+            </p>
+          </FadeIn>
+
+          <FadeIn>
+            <div className="mt-10">
+              <Image
+                src="/bmo-user-flow.png"
+                alt="User flow map used during discovery to identify pain points and platform opportunities across a core wealth-platform journey."
+                width={2000}
+                height={1400}
+                className="w-full rounded-md border border-neutral-200"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+              <p className="mt-3 text-sm text-neutral-400">
+                Journey mapping used to identify friction, drop-off points, and
+                opportunity areas across a core platform flow.
+              </p>
+            </div>
+          </FadeIn>
+
+          <FadeIn>
+            <div className="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-[1.4fr_0.9fr] lg:items-start">
+              <div>
+                <p className="text-base leading-relaxed text-neutral-600 lg:text-lg">
+                  We also introduced event-based surveys at key moments in the
+                  experience to capture feedback closer to the behavior itself,
+                  rather than relying only on retrospective opinions. This gave
+                  us a lighter-weight way to understand confusion, hesitation,
+                  and unmet expectations inside the product, then compare those
+                  signals against advisor feedback and analytics patterns.
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/apptentive-1.png"
+                  alt="Event-based in-product survey used to capture contextual feedback within the BMO wealth platform."
+                  width={1000}
+                  height={800}
+                  className="w-full rounded-md border border-neutral-200"
+                  sizes="(max-width: 1024px) 100vw, 32vw"
+                />
+                <p className="mt-3 text-sm text-neutral-400">
+                  Event-based survey prompt used to gather in-context feedback
+                  without adding a heavy research layer to the experience.
+                </p>
+              </div>
+            </div>
+          </FadeIn>
+        </section>
+
         {/* Section 1: Document Retrieval Modernization */}
         <section className="py-16 sm:py-20 border-t border-neutral-200">
           <FadeIn>
