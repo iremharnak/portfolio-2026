@@ -38,7 +38,10 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="mx-auto max-w-6xl px-6 pt-24 pb-8 sm:px-8 sm:pt-32 sm:pb-10">
+      <section
+        id="top"
+        className="mx-auto max-w-6xl scroll-mt-24 px-6 pt-24 pb-8 sm:px-8 sm:pt-32 sm:pb-10"
+      >
         <div className="max-w-3xl">
           <FadeIn>
             <p className="text-base font-medium text-black lg:text-lg">
@@ -91,6 +94,7 @@ export default function HomePage() {
 
       {/* Currently Building */}
       <section
+        id="anchor"
         className="mx-auto max-w-6xl px-6 pt-8 pb-16 sm:px-8 sm:pt-12 sm:pb-24"
         aria-labelledby="currently-building-heading"
       >
