@@ -324,6 +324,12 @@ export const projects: Project[] = [
 
 export const writingPosts: WritingPost[] = [
   {
+    title: "The Box Was Never About AI",
+    description:
+      "The gatekeeping in the industry predates algorithm. It always did.",
+    href: "https://open.substack.com/pub/iremharnak/p/the-box-was-never-about-ai?r=7pknbb&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+  },
+  {
     title: "I Stopped Optimizing for Output",
     description:
       "A reflection on stepping away from output as the default metric and choosing a more sustainable pace.",
