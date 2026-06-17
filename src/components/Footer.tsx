@@ -8,7 +8,7 @@ export function Footer() {
           </p>
           <div className="flex gap-6">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/iremharnak/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-neutral-400 hover:text-neutral-900 transition-colors duration-200"
