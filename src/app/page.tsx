@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import { projects, writingPosts } from "@/data/projects";
+import { templates } from "@/data/studio";
 import { ProjectBlock } from "@/components/ProjectBlock";
 import { FadeIn } from "@/components/FadeIn";
 
@@ -72,7 +75,7 @@ export default function HomePage() {
           <FadeIn>
             <h2
               id="about-heading"
-              className="text-xs font-medium uppercase tracking-widest text-neutral-400"
+              className="text-xs font-medium uppercase tracking-widest text-neutral-500"
             >
               About
             </h2>
@@ -87,6 +90,16 @@ export default function HomePage() {
               scalable interaction models. I&apos;m drawn to teams building
               thoughtful products under real-world complexity, whether in highly
               regulated environments or fast-moving experimental ones.
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-neutral-600 lg:text-lg">
+              My product work sits on a visual background in photography, brand
+              and editorial design.{" "}
+              <Link
+                href="/studio"
+                className="font-medium text-neutral-900 underline underline-offset-4 decoration-neutral-300 hover:decoration-neutral-900 transition-colors duration-200"
+              >
+                See my Studio work.
+              </Link>
             </p>
           </FadeIn>
         </div>
@@ -103,7 +116,7 @@ export default function HomePage() {
             <div className="max-w-2xl">
               <h2
                 id="currently-building-heading"
-                className="text-xs font-medium uppercase tracking-widest text-neutral-400"
+                className="text-xs font-medium uppercase tracking-widest text-neutral-500"
               >
                 CURRENTLY BUILDING
               </h2>
@@ -158,7 +171,7 @@ export default function HomePage() {
         <FadeIn>
           <h2
             id="work-heading"
-            className="text-xs font-medium uppercase tracking-widest text-neutral-400"
+            className="text-xs font-medium uppercase tracking-widest text-neutral-500"
           >
             Selected Work
           </h2>
@@ -171,6 +184,51 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Brand & Editorial Design */}
+      <section
+        className="mx-auto max-w-3xl px-6 py-16 sm:py-24 lg:px-0"
+        aria-labelledby="studio-heading"
+      >
+        <FadeIn>
+          <h2
+            id="studio-heading"
+            className="text-xs font-medium uppercase tracking-widest text-neutral-500"
+          >
+            Brand &amp; Editorial Design
+          </h2>
+          <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
+            The visual side of my practice: a studio brand and three website
+            systems, designed with Multitouch Studio.
+          </p>
+        </FadeIn>
+
+        <FadeIn>
+          <ul className="mt-10 grid grid-cols-3 gap-3 sm:gap-4" role="list">
+            {templates.map((template) => (
+              <li key={template.slug}>
+                <Image
+                  src={template.screens[0].src}
+                  alt={template.screens[0].alt}
+                  width={template.screens[0].width}
+                  height={template.screens[0].height}
+                  className="h-auto w-full bg-neutral-100"
+                  sizes="(max-width: 768px) 33vw, 240px"
+                />
+                <p className="mt-2 text-xs text-neutral-500 sm:text-sm">
+                  {template.name}
+                </p>
+              </li>
+            ))}
+          </ul>
+          <Link
+            href="/studio"
+            className="mt-8 inline-block text-sm font-medium text-neutral-900 underline underline-offset-4 decoration-neutral-300 hover:decoration-neutral-900 transition-colors duration-200"
+          >
+            Explore the Studio
+          </Link>
+        </FadeIn>
+      </section>
+
       {/* Writing */}
       <section
         className="mx-auto max-w-3xl px-6 py-16 sm:py-24 lg:px-0"
@@ -179,7 +237,7 @@ export default function HomePage() {
         <FadeIn>
           <h2
             id="writing-heading"
-            className="text-xs font-medium uppercase tracking-widest text-neutral-400"
+            className="text-xs font-medium uppercase tracking-widest text-neutral-500"
           >
             Writing
           </h2>

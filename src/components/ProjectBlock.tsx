@@ -56,7 +56,7 @@ export function ProjectBlock({ project, index }: ProjectBlockProps) {
             >
               {project.ctaLabel}
             </Link>
-            <p className="mt-2 text-xs text-neutral-400">
+            <p className="mt-2 text-xs text-neutral-500">
               {project.microSignals.join(" \u00b7 ")}
             </p>
           </div>

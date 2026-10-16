@@ -24,7 +24,7 @@ function Placeholder({ label }: { label: string }) {
       role="img"
       aria-label={label}
     >
-      <p className="text-sm font-medium text-neutral-400">{label}</p>
+      <p className="text-sm font-medium text-neutral-500">{label}</p>
     </div>
   );
 }
@@ -61,7 +61,7 @@ export default function BMOCasePage() {
           <FadeIn>
             <dl className="grid grid-cols-2 gap-x-6 gap-y-5 sm:grid-cols-3">
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Role
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -69,7 +69,7 @@ export default function BMOCasePage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Tenure
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -77,7 +77,7 @@ export default function BMOCasePage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Scope
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -85,7 +85,7 @@ export default function BMOCasePage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Environment
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -94,7 +94,7 @@ export default function BMOCasePage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Technologies
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -144,7 +144,7 @@ export default function BMOCasePage() {
                 <source src="/GW-mobileApp-2.MP4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
-              <p className="mt-3 text-sm text-neutral-400">
+              <p className="mt-3 text-sm text-neutral-500">
                 Investment platform (Gateway) testing environment
               </p>
             </div>
@@ -157,7 +157,7 @@ export default function BMOCasePage() {
             <h2 className="font-serif text-2xl tracking-tight sm:text-3xl">
               Discovery
             </h2>
-            <p className="mt-2 text-base text-neutral-400">
+            <p className="mt-2 text-base text-neutral-500">
               Mapping user behavior before redesigning the system
             </p>
           </FadeIn>
@@ -203,7 +203,7 @@ export default function BMOCasePage() {
                 className="w-full rounded-md border border-neutral-200"
                 sizes="(max-width: 768px) 100vw, 768px"
               />
-              <p className="mt-3 text-sm text-neutral-400">
+              <p className="mt-3 text-sm text-neutral-500">
                 Journey mapping used to identify friction, drop-off points, and
                 opportunity areas across a core platform flow.
               </p>
@@ -229,7 +229,7 @@ export default function BMOCasePage() {
                   className="w-full rounded-md border border-neutral-200"
                   sizes="(max-width: 1024px) 100vw, 32vw"
                 />
-                <p className="mt-3 text-sm text-neutral-400">
+                <p className="mt-3 text-sm text-neutral-500">
                   Event-based survey prompt used to gather in-context feedback
                   without adding a heavy research layer to the experience.
                 </p>
@@ -244,7 +244,7 @@ export default function BMOCasePage() {
             <h2 className="font-serif text-2xl tracking-tight sm:text-3xl">
               Modernizing Document Retrieval
             </h2>
-            <p className="mt-2 text-base text-neutral-400">
+            <p className="mt-2 text-base text-neutral-500">
               Reduce friction in high-frequency workflows
             </p>
           </FadeIn>
@@ -259,7 +259,7 @@ export default function BMOCasePage() {
                   className="h-full w-full"
                 />
               </div>
-              <p className="mt-3 text-sm text-neutral-400">
+              <p className="mt-3 text-sm text-neutral-500">
                 Edocuments Modernization
               </p>
             </div>
@@ -276,7 +276,7 @@ export default function BMOCasePage() {
                   className="w-full rounded-md border border-neutral-200"
                   sizes="(max-width: 640px) 100vw, 50vw"
                 />
-                <p className="mt-3 text-sm text-neutral-400">Legacy Interaction</p>
+                <p className="mt-3 text-sm text-neutral-500">Legacy Interaction</p>
               </div>
               <div className="flex-1">
                 <Image
@@ -287,7 +287,7 @@ export default function BMOCasePage() {
                   className="w-full rounded-md border border-neutral-200"
                   sizes="(max-width: 640px) 100vw, 50vw"
                 />
-                <p className="mt-3 text-sm text-neutral-400">Simplified Document Retrieval</p>
+                <p className="mt-3 text-sm text-neutral-500">Simplified Document Retrieval</p>
               </div>
             </div>
           </FadeIn>
@@ -353,7 +353,7 @@ export default function BMOCasePage() {
             <h2 className="font-serif text-2xl tracking-tight sm:text-3xl">
               Improving Account Preferences &amp; Delivery States
             </h2>
-            <p className="mt-2 text-base text-neutral-400">
+            <p className="mt-2 text-base text-neutral-500">
               Clarifying document delivery and notification behavior
             </p>
           </FadeIn>
@@ -368,7 +368,7 @@ export default function BMOCasePage() {
                   className="h-full w-full"
                 />
               </div>
-              <p className="mt-3 text-sm text-neutral-400">
+              <p className="mt-3 text-sm text-neutral-500">
                 Improving Account Preferences
               </p>
             </div>
@@ -384,7 +384,7 @@ export default function BMOCasePage() {
                 className="w-full rounded-md border border-neutral-200"
                 sizes="(max-width: 768px) 100vw, 768px"
               />
-              <p className="mt-3 text-sm text-neutral-400">Account Preferences Interface</p>
+              <p className="mt-3 text-sm text-neutral-500">Account Preferences Interface</p>
             </div>
           </FadeIn>
 
@@ -437,7 +437,7 @@ export default function BMOCasePage() {
             <h2 className="font-serif text-2xl tracking-tight sm:text-3xl">
               Bridging Design and Production
             </h2>
-            <p className="mt-2 text-base text-neutral-400">
+            <p className="mt-2 text-base text-neutral-500">
               Designing with architectural awareness
             </p>
           </FadeIn>
@@ -552,7 +552,7 @@ export default function BMOCasePage() {
         <div className="border-t border-neutral-200 py-12">
           <Link
             href="/#work"
-            className="text-sm text-neutral-400 underline underline-offset-4 decoration-neutral-300 hover:text-neutral-900 hover:decoration-neutral-900 transition-colors duration-200"
+            className="text-sm text-neutral-500 underline underline-offset-4 decoration-neutral-300 hover:text-neutral-900 hover:decoration-neutral-900 transition-colors duration-200"
           >
             &larr; Back to all work
           </Link>
