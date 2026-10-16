@@ -52,7 +52,7 @@ export default function LumetoCasePage() {
           <FadeIn>
             <dl className="grid grid-cols-2 gap-x-6 gap-y-5 sm:grid-cols-3">
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Role
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -60,7 +60,7 @@ export default function LumetoCasePage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Tenure
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -68,7 +68,7 @@ export default function LumetoCasePage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Scope
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -77,7 +77,7 @@ export default function LumetoCasePage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Environment
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -85,7 +85,7 @@ export default function LumetoCasePage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Technologies
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -126,7 +126,7 @@ export default function LumetoCasePage() {
                 sizes="(max-width: 768px) 100vw, 768px"
               />
             </div>
-            <p className="mt-3 text-sm text-neutral-400">
+            <p className="mt-3 text-sm text-neutral-500">
               Jay Street XR training environment used for scenario simulations.
               <br />
               Environment design supported spatial navigation and scenario
@@ -141,7 +141,7 @@ export default function LumetoCasePage() {
             <h2 className="font-serif text-2xl tracking-tight sm:text-3xl">
               Discovery
             </h2>
-            <p className="mt-2 text-base text-neutral-400">
+            <p className="mt-2 text-base text-neutral-500">
               Translating scenario-based training into XR
             </p>
           </FadeIn>
@@ -182,7 +182,7 @@ export default function LumetoCasePage() {
                 className="w-full rounded-md border border-neutral-200"
                 sizes="(max-width: 768px) 100vw, 768px"
               />
-              <p className="mt-3 text-sm text-neutral-400">
+              <p className="mt-3 text-sm text-neutral-500">
                 User flow used to understand the structure of in-person
                 scenario-based training before translating it into XR.
               </p>
@@ -327,7 +327,7 @@ export default function LumetoCasePage() {
                 sizes="(max-width: 768px) 100vw, 768px"
               />
             </div>
-            <p className="mt-3 text-sm text-neutral-400">
+            <p className="mt-3 text-sm text-neutral-500">
               Controller interaction model designed for intuitive VR navigation
               and object interaction.
               <br />
@@ -414,7 +414,7 @@ export default function LumetoCasePage() {
                 sizes="(max-width: 768px) 100vw, 768px"
               />
             </div>
-            <p className="mt-3 text-sm text-neutral-400">
+            <p className="mt-3 text-sm text-neutral-500">
               Scenario architecture linking planning tools with immersive VR
               training environments.
             </p>
@@ -440,7 +440,7 @@ export default function LumetoCasePage() {
             <p className="mt-6 text-base leading-relaxed text-neutral-600 lg:text-lg">
               Adopted within healthcare and public safety training contexts.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-neutral-400 italic">
+            <p className="mt-4 text-sm leading-relaxed text-neutral-500 italic">
               User scale reflects real world deployment following platform
               launch.
             </p>
@@ -476,7 +476,7 @@ export default function LumetoCasePage() {
         <div className="border-t border-neutral-200 py-12">
           <Link
             href="/#work"
-            className="text-sm text-neutral-400 underline underline-offset-4 decoration-neutral-300 hover:text-neutral-900 hover:decoration-neutral-900 transition-colors duration-200"
+            className="text-sm text-neutral-500 underline underline-offset-4 decoration-neutral-300 hover:text-neutral-900 hover:decoration-neutral-900 transition-colors duration-200"
           >
             &larr; Back to all work
           </Link>

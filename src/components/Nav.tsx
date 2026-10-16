@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { NavLink } from "./NavLink";
 
 export function Nav() {
   return (
@@ -20,6 +21,7 @@ export function Nav() {
           >
             Work
           </Link>
+          <NavLink href="/studio">Studio</NavLink>
           <a
             href="https://docs.google.com/document/d/1P9Mnb8awadwR_43omrbUZSjOcjitav1D/edit?usp=sharing&ouid=109237708218307948923&rtpof=true&sd=true"
             target="_blank"

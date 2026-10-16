@@ -11,13 +11,13 @@ export function Footer() {
               href="https://www.linkedin.com/in/iremharnak/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-neutral-400 hover:text-neutral-900 transition-colors duration-200"
+              className="text-sm text-neutral-500 hover:text-neutral-900 transition-colors duration-200"
             >
               LinkedIn
             </a>
             <a
               href="mailto:irem@iremharnak.com"
-              className="text-sm text-neutral-400 hover:text-neutral-900 transition-colors duration-200"
+              className="text-sm text-neutral-500 hover:text-neutral-900 transition-colors duration-200"
             >
               Email
             </a>

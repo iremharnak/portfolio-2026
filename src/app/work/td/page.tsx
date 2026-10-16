@@ -23,7 +23,7 @@ function Placeholder({ label }: { label: string }) {
       role="img"
       aria-label={label}
     >
-      <p className="text-sm font-medium text-neutral-400">{label}</p>
+      <p className="text-sm font-medium text-neutral-500">{label}</p>
     </div>
   );
 }
@@ -63,7 +63,7 @@ export default function TDCasePage() {
           <FadeIn>
             <dl className="grid grid-cols-2 gap-x-6 gap-y-5 sm:grid-cols-3">
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Role
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -71,7 +71,7 @@ export default function TDCasePage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Tenure
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -79,7 +79,7 @@ export default function TDCasePage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Scope
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -87,7 +87,7 @@ export default function TDCasePage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Environment
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -95,7 +95,7 @@ export default function TDCasePage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                   Collaboration
                 </dt>
                 <dd className="mt-1 text-sm text-neutral-900">
@@ -243,7 +243,7 @@ export default function TDCasePage() {
                 sizes="(max-width: 768px) 100vw, 768px"
               />
             </div>
-            <p className="mt-3 text-sm text-neutral-400">
+            <p className="mt-3 text-sm text-neutral-500">
               Flat API-driven dropdown presenting full vehicle list without
               structured grouping.
             </p>
@@ -261,7 +261,7 @@ export default function TDCasePage() {
                 sizes="(max-width: 768px) 100vw, 768px"
               />
             </div>
-            <p className="mt-3 text-sm text-neutral-400">
+            <p className="mt-3 text-sm text-neutral-500">
               Grouped vehicle selection modeled after the Canada Post drill-down
               interaction pattern.
             </p>
@@ -505,7 +505,7 @@ export default function TDCasePage() {
         <div className="border-t border-neutral-200 py-12">
           <Link
             href="/#work"
-            className="text-sm text-neutral-400 underline underline-offset-4 decoration-neutral-300 hover:text-neutral-900 hover:decoration-neutral-900 transition-colors duration-200"
+            className="text-sm text-neutral-500 underline underline-offset-4 decoration-neutral-300 hover:text-neutral-900 hover:decoration-neutral-900 transition-colors duration-200"
           >
             &larr; Back to all work
           </Link>

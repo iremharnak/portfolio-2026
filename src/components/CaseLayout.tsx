@@ -71,19 +71,19 @@ export function CaseLayout({ project }: CaseLayoutProps) {
         <FadeIn>
           <dl className="grid grid-cols-2 gap-6 sm:grid-cols-4">
             <div>
-              <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+              <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                 Role
               </dt>
               <dd className="mt-1 text-sm text-neutral-900">{project.role}</dd>
             </div>
             <div>
-              <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+              <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                 Tenure
               </dt>
               <dd className="mt-1 text-sm text-neutral-900">{project.tenure}</dd>
             </div>
             <div>
-              <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+              <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                 Environment
               </dt>
               <dd className="mt-1 text-sm text-neutral-900">
@@ -91,7 +91,7 @@ export function CaseLayout({ project }: CaseLayoutProps) {
               </dd>
             </div>
             <div>
-              <dt className="text-xs font-medium uppercase tracking-widest text-neutral-400">
+              <dt className="text-xs font-medium uppercase tracking-widest text-neutral-500">
                 Technologies
               </dt>
               <dd className="mt-1 text-sm text-neutral-900">
@@ -101,13 +101,13 @@ export function CaseLayout({ project }: CaseLayoutProps) {
           </dl>
           {project.scope && (
             <p className="mt-6 text-sm text-neutral-500">
-              <span className="font-medium text-neutral-400">Scope:</span>{" "}
+              <span className="font-medium text-neutral-500">Scope:</span>{" "}
               {project.scope}
             </p>
           )}
           {project.team && (
             <p className="mt-2 text-sm text-neutral-500">
-              <span className="font-medium text-neutral-400">Team:</span>{" "}
+              <span className="font-medium text-neutral-500">Team:</span>{" "}
               {project.team}
             </p>
           )}
@@ -145,7 +145,7 @@ export function CaseLayout({ project }: CaseLayoutProps) {
                 sizes="(max-width: 1024px) 100vw, 768px"
               />
               {project.contributionsImageCaption && (
-                <p className="mt-3 text-sm text-neutral-400">
+                <p className="mt-3 text-sm text-neutral-500">
                   {project.contributionsImageCaption}
                 </p>
               )}
@@ -172,7 +172,7 @@ export function CaseLayout({ project }: CaseLayoutProps) {
                   className="w-full bg-neutral-100"
                   sizes="(max-width: 768px) 100vw, 32vw"
                 />
-                <p className="mt-3 text-sm text-neutral-400">
+                <p className="mt-3 text-sm text-neutral-500">
                   {project.gallery[0].caption}
                 </p>
               </div>
@@ -187,7 +187,7 @@ export function CaseLayout({ project }: CaseLayoutProps) {
                       className="w-full bg-neutral-100"
                       sizes="(max-width: 768px) 100vw, 28vw"
                     />
-                    <p className="mt-3 text-sm text-neutral-400">
+                    <p className="mt-3 text-sm text-neutral-500">
                       {item.caption}
                     </p>
                   </div>
@@ -231,7 +231,7 @@ export function CaseLayout({ project }: CaseLayoutProps) {
             ))}
           </ul>
           {project.impactNote && (
-            <p className="mt-4 text-xs leading-relaxed text-neutral-400 italic">
+            <p className="mt-4 text-xs leading-relaxed text-neutral-500 italic">
               {project.impactNote}
             </p>
           )}
@@ -269,7 +269,7 @@ export function CaseLayout({ project }: CaseLayoutProps) {
       <div className="border-t border-neutral-100 py-12">
         <Link
           href="/#work"
-          className="text-sm text-neutral-400 underline underline-offset-4 decoration-neutral-300 hover:text-neutral-900 hover:decoration-neutral-900 transition-colors duration-200"
+          className="text-sm text-neutral-500 underline underline-offset-4 decoration-neutral-300 hover:text-neutral-900 hover:decoration-neutral-900 transition-colors duration-200"
         >
           &larr; Back to all work
         </Link>
